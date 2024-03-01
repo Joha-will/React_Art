@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { styled } from 'styled-components'
 
-const ConstrolContainer = styled.div`
+const ControlContainer = styled.div`
 
   display: flex;
   flex-direction: column;
@@ -40,9 +40,9 @@ export default function AuthInputs() {
 
   return (
     <div id="auth-inputs">
-      <ConstrolContainer>
+      <ControlContainer>
         <p>
-          <Label>Email</Label>
+          <label className={`label ${emailNotValid ? 'invalid' : ''}`}>Email</label>
           <input
             type="email"
             className={emailNotValid ? 'invalid' : undefined}
@@ -59,7 +59,7 @@ export default function AuthInputs() {
             }
           />
         </p>
-      </ConstrolContainer>
+      </ControlContainer>
       <div className="actions">
         <button type="button" className="text-button">
           Create a new account
