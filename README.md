@@ -14,7 +14,7 @@
   * CSS
 
 
-***What I learn 📚***
+***What I learnt 📚***
 ------------------------
 ****Static and dynamic styling for pretty apps****
 
