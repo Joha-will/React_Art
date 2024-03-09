@@ -13,12 +13,25 @@
   * HTML
   * CSS
 
+
+***What I learn 📚***
+------------------------
+****Static and dynamic styling for pretty apps****
+
+Here are some of the things I learn during this section of my React journey:
+
+ * Styling with vanilla CSS
+ * Scoping styles with CSS modules
+ * CSS-in-JS styling with "Styled Components"
+ * Styling with Tailwind CSS
+ * Static and Dynamic(Conditional) styling
+
   ***How to run this project?***
 ------------------------
 
 Follow these steps to run project in your local environment.
 
-  -  **git clone** this repository to your local machine.
-  - Install required dependencies by running **npm install in your project directory.**
+  -  **git clone** this repository to your local machine
+  - Install required dependencies by running **npm install in your project directory**
 
-  - Then run the command **npm run dev** to start project.
+  - Then run the command **npm run dev** to start project
